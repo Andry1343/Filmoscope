@@ -2,16 +2,10 @@ import styled from '@emotion/styled';
 
 export const Form = styled.form`
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  input {
-    height: 40px;
-    padding-left: 10px;
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
 `;
 export const Button = styled.button`
   margin-left: auto;

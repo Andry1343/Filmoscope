@@ -18,10 +18,43 @@ export const Box = styled.div`
 
 export const Text = styled.p`
   height: 30px;
-  font-weight: 200;
+  font-weight: 100;
+  font-size: 10px;
   padding: 10px 10px 5px;
   display: flex;
   align-items: center;
+
+  @media only screen and (min-width: 240px) {
+    /* For everything bigger than 240px */
+    font-weight: 100;
+    font-size: 10px;
+  }
+
+  @media only screen and (min-width: 320px) {
+    /* For everything bigger than 320px */
+    font-size: 15px;
+    font-weight: 200;
+  }
+  @media only screen and (min-width: 481px) {
+    /* For everything bigger than 481px */
+    font-size: 15px;
+    font-weight: 200;
+  }
+  @media only screen and (min-width: 769px) {
+    /* For everything bigger than 769px */
+    font-size: 15px;
+    font-weight: 200;
+  }
+  @media only screen and (min-width: 1025px) {
+    /* For everything bigger than 1025px */
+    font-size: 15px;
+    font-weight: 200;
+  }
+  @media only screen and (min-width: 1201px) {
+    /* For everything bigger than 1201px */
+    font-size: 20px;
+    font-weight: 200;
+  }
 `;
 export const MyLink = styled(Link)`
   text-decoration: none;

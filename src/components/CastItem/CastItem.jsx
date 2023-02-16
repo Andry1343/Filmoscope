@@ -8,7 +8,7 @@ export function CastItem({ actor: { profile_path, name, character } }) {
       {profile_path && (
         <Item>
           <Image src={`${BASE_IMG_URL}` + profile_path} alt={name} />
-          <Text style={{ fontSize: '20px' }}>{name}</Text>
+          <Text>{name}</Text>
           <Text>Character: {character}</Text>
         </Item>
       )}

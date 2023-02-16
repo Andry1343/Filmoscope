@@ -4,14 +4,46 @@ import { NavLink, Link } from 'react-router-dom';
 export const Wrapper = styled.div`
   display: block;
 `;
+
+export const Box = styled.div`
+  
+  margin-bottom: 20px;
+
+
+  @media only screen and (min-width: 240px) {
+    /* For everything bigger than 240px */
+    
+  }
+
+  @media only screen and (min-width: 320px) {
+    /* For everything bigger than 320px */
+    
+  }
+  @media only screen and (min-width: 481px) {
+    /* For everything bigger than 481px */
+    
+  }
+  @media only screen and (min-width: 769px) {
+    /* For everything bigger than 769px */
+    display: flex;
+  }
+  @media only screen and (min-width: 1025px) {
+    /* For everything bigger than 1025px */
+    display: flex;
+  }
+  @media only screen and (min-width: 1201px) {
+    /* For everything bigger than 1201px */
+    display: flex;
+  }
+`;
 export const Image = styled.img`
-  width: 350px;
+  /* max-width: 350px; */
   margin-right: 40px;
   border-radius: 10px;
 `;
 
 export const Title = styled.h1`
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 20px;
 `;
 export const Year = styled.p`

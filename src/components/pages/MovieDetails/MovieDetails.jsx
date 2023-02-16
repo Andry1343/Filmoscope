@@ -13,6 +13,7 @@ import {
   LinkWrapper,
   Additional,
   BackLink,
+  Box,
 } from './MovieDetails.styled';
 import { MyLink } from './MovieDetails.styled';
 import { FaArrowLeft } from 'react-icons/fa';
@@ -40,7 +41,7 @@ export const MovieDetails = () => {
             <FaArrowLeft />
             Back to movies
           </BackLink>
-          <div style={{ display: 'flex', marginBottom: '20px' }}>
+          <Box>
             <Image
               src={
                 movie.poster_path
@@ -63,7 +64,7 @@ export const MovieDetails = () => {
                   .join(', ')}
               </Genres>
             </div>
-          </div>
+          </Box>
           <LinkWrapper>
             <Additional>Additional information</Additional>
             <MyLink to="cast">Cast</MyLink>

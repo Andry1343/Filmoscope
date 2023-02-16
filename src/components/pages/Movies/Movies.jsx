@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { getMovieBySearch } from 'components/getMovies';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import TextField from '@mui/material/TextField';
 
 export const Movies = () => {
   const [movies, setMovies] = useState([]);
@@ -42,12 +43,14 @@ export const Movies = () => {
   return (
     <>
       <Form onSubmit={handleSubmit}>
-        <input
-          type="text"
+        <TextField
           autoComplete="off"
-          autoFocus
-          placeholder="Enter movie to search..."
           name="input"
+          id="standard-basic"
+          label="Enter movie to search..."
+          variant="standard"
+          size="small"
+          margin="normal"
         />
         <Button type="submit">
           <p>Search</p>

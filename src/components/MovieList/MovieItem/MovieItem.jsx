@@ -20,7 +20,7 @@ export function MovieItem({
             }
             alt={title || name}
           />
-          <Text style={{ fontSize: '20px' }}>{title || name}</Text>
+          <Text>{title || name}</Text>
           <Text>Rate: {vote_average.toFixed(1)} / 10</Text>
         </Box>
       </MyLink>

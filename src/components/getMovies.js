@@ -5,15 +5,12 @@ const BASE_URL = 'https://api.themoviedb.org/3/';
 const TRENDING_URL = 'trending/movie/day';
 const BY_SEARCH_URL = 'search/movie';
 
-export async function getTrendingMovies() {
+export async function getTrendingMovies(page) {
   const response = await axios.get(
-    `${BASE_URL}${TRENDING_URL}?api_key=${API_KEY}`
+    `${BASE_URL}${TRENDING_URL}?api_key=${API_KEY}&page=${page}`
   );
   return response;
 }
-
-
-
 
 export async function getMovieBySearch(query) {
   const response = await axios.get(
