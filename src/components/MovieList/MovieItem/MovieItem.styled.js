@@ -10,9 +10,11 @@ export const Box = styled.div`
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.5);
-  transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 500ms;
+  @media only screen and (min-width: 1201px) {
+    transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 500ms;
   &:hover {
     transform: scale(1.05);
+  }
   }
 `;
 
