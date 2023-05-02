@@ -39,3 +39,48 @@ export async function getMovieReviews(id) {
   );
   return response;
 }
+
+export async function getTrailer(id) {
+  const response = await axios.get(
+    `${BASE_URL}movie/${id}/videos?api_key=${API_KEY}&language=en-US`
+  );
+  return response;
+}
+
+
+ /* export default function openTrailer(id) {
+  getTrailer(id)
+    .then(data => {
+      const key = data.results[0].key;
+
+      iframeTrailer.src = srcTrailer + key;
+     
+
+)}} */
+ 
+/* export default function openTrailer(id) {
+  findTrailer(id)
+    .then(data => {
+      const key = data.results[0].key;
+
+      iframeTrailer.src = srcTrailer + key;
+      modal.show();
+
+      const closeBtn = document.querySelector('.close-modal__trailer');
+      closeBtn.addEventListener('click', closeModal);
+      function closeModal(e) {
+        modal.close();
+        window.removeEventListener('keydown', closeModalHandler);
+      }
+    })
+    .catch(error => {
+      modal2.show();
+      console.log(error);
+    });
+}
+
+function findTrailer(idCard) {
+  return fetch(
+    `https://api.themoviedb.org/3/movie/${idCard}/videos?api_key=${KEY}&language=en-US`
+  ).then(respons => respons.json());
+} */

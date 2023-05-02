@@ -11,18 +11,29 @@ export const Home = () => {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
 
+  const BtnScrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   const loadMoreBtn = () => {
     setPage(prevPage => prevPage + 1);
+    BtnScrollUp();
   };
 
   const loadLessBtn = () => {
     if (page >= 2) {
       setPage(prevPage => prevPage - 1);
     }
+    BtnScrollUp();
   };
 
   const handlePageClick = pageNumber => {
     setPage(pageNumber);
+    BtnScrollUp();
   };
 
   const renderPageNumbers = () => {

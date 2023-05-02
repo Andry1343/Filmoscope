@@ -20,7 +20,6 @@ export const Button = styled.button`
   cursor: pointer;
   font-size: 13px;
   line-height: 29px;
-  width: 50px;
   padding: 0 10px 0 11px;
   &:hover {
     background-color: orangered;
