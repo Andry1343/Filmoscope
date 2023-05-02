@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Filmoscope/static/css/main.795cb65d.css",
-    "main.js": "/Filmoscope/static/js/main.90b0adee.js",
-    "static/js/287.ca4f6d3a.chunk.js": "/Filmoscope/static/js/287.ca4f6d3a.chunk.js",
-    "static/js/629.a8750f70.chunk.js": "/Filmoscope/static/js/629.a8750f70.chunk.js",
+    "main.js": "/Filmoscope/static/js/main.5ee7a4b1.js",
+    "static/js/287.acd7880d.chunk.js": "/Filmoscope/static/js/287.acd7880d.chunk.js",
+    "static/js/629.f727a7bb.chunk.js": "/Filmoscope/static/js/629.f727a7bb.chunk.js",
     "static/js/733.aec75e7f.chunk.js": "/Filmoscope/static/js/733.aec75e7f.chunk.js",
-    "static/js/501.90f12767.chunk.js": "/Filmoscope/static/js/501.90f12767.chunk.js",
+    "static/js/501.bf8d4db1.chunk.js": "/Filmoscope/static/js/501.bf8d4db1.chunk.js",
     "static/js/115.a7569986.chunk.js": "/Filmoscope/static/js/115.a7569986.chunk.js",
     "static/js/396.b2eef13a.chunk.js": "/Filmoscope/static/js/396.b2eef13a.chunk.js",
     "static/js/907.44a30326.chunk.js": "/Filmoscope/static/js/907.44a30326.chunk.js",
@@ -13,11 +13,11 @@
     "static/css/544.d4139ab1.chunk.css": "/Filmoscope/static/css/544.d4139ab1.chunk.css",
     "index.html": "/Filmoscope/index.html",
     "main.795cb65d.css.map": "/Filmoscope/static/css/main.795cb65d.css.map",
-    "main.90b0adee.js.map": "/Filmoscope/static/js/main.90b0adee.js.map",
-    "287.ca4f6d3a.chunk.js.map": "/Filmoscope/static/js/287.ca4f6d3a.chunk.js.map",
-    "629.a8750f70.chunk.js.map": "/Filmoscope/static/js/629.a8750f70.chunk.js.map",
+    "main.5ee7a4b1.js.map": "/Filmoscope/static/js/main.5ee7a4b1.js.map",
+    "287.acd7880d.chunk.js.map": "/Filmoscope/static/js/287.acd7880d.chunk.js.map",
+    "629.f727a7bb.chunk.js.map": "/Filmoscope/static/js/629.f727a7bb.chunk.js.map",
     "733.aec75e7f.chunk.js.map": "/Filmoscope/static/js/733.aec75e7f.chunk.js.map",
-    "501.90f12767.chunk.js.map": "/Filmoscope/static/js/501.90f12767.chunk.js.map",
+    "501.bf8d4db1.chunk.js.map": "/Filmoscope/static/js/501.bf8d4db1.chunk.js.map",
     "115.a7569986.chunk.js.map": "/Filmoscope/static/js/115.a7569986.chunk.js.map",
     "396.b2eef13a.chunk.js.map": "/Filmoscope/static/js/396.b2eef13a.chunk.js.map",
     "907.44a30326.chunk.js.map": "/Filmoscope/static/js/907.44a30326.chunk.js.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.795cb65d.css",
-    "static/js/main.90b0adee.js"
+    "static/js/main.5ee7a4b1.js"
   ]
 }
